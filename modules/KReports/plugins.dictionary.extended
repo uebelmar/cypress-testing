@@ -1,0 +1,141 @@
+<?php
+/* * *******************************************************************************
+* This file is part of KReporter. KReporter is an enhancement developed
+* by aac services k.s.. All rights are (c) 2016 by aac services k.s.
+*
+* This Version of the KReporter is licensed software and may only be used in
+* alignment with the License Agreement received with this Software.
+* This Software is copyrighted and may not be further distributed without
+* witten consent of aac services k.s.
+*
+* You can contact us at info@kreporter.org
+******************************************************************************* */
+
+
+
+
+$plugins['standard'] = array(
+    'id' => 'standard', 
+    'type' => 'presentation', 
+    'directory' => 'standardview'
+); 
+$plugins['grouped'] = array(
+    'id' => 'grouped', 
+    'type' => 'presentation', 
+    'directory' => 'groupedview'
+); 
+$plugins['standardws'] = array(
+    'id' => 'standardws', 
+    'type' => 'presentation', 
+    'directory' => 'standardwsummary'
+); 
+$plugins['standardwp'] = array(
+    'id' => 'standardwp', 
+    'type' => 'presentation', 
+    'directory' => 'standardwpreview'
+); 
+$plugins['tree'] = array(
+    'id' => 'tree', 
+    'type' => 'presentation', 
+    'directory' => 'treeview'
+); 
+$plugins['pivot'] = array(
+    'id' => 'pivot', 
+    'type' => 'presentation', 
+    'directory' => 'pivot'
+); 
+$plugins['googlecharts'] = array(
+    'id' => 'googlecharts', 
+    'type' => 'visualization', 
+    'directory' => 'googlecharts'
+);
+$plugins['googlecharts'] = array(
+    'id' => 'googlecharts', 
+    'type' => 'visualization', 
+    'directory' => 'googlecharts_ext'
+);
+
+$plugins['highcharts'] = array(
+    'id' => 'highcharts', 
+    'type' => 'visualization', 
+    'directory' => 'highcharts'
+);
+$plugins['googlemaps'] = array(
+    'id' => 'googlemaps', 
+    'type' => 'visualization', 
+    'directory' => 'googlemaps'
+);
+$plugins['googlegeo'] = array(
+    'id' => 'googlegeo', 
+    'type' => 'visualization', 
+    'directory' => 'googlegeo'
+);
+$plugins['amcharts'] = array(
+    'id' => 'amcharts', 
+    'type' => 'visualization', 
+    'directory' => 'amcharts'
+);
+/*
+$plugins['ammap'] = array(
+    'id' => 'ammap', 
+    'type' => 'visualization', 
+    'directory' => 'ammap'
+);
+*/
+$plugins['kcsvexport'] = array(
+    'id' => 'kcsvexport', 
+    'type' => 'integration', 
+    'directory' => 'kcsvexport'
+);
+$plugins['ktargetlistexport'] = array(
+    'id' => 'ktargetlistexport', 
+    'type' => 'integration', 
+    'directory' => 'ktargetlistexport_extended'
+);
+/*
+$plugins['ktargetlistexport'] = array(
+    'id' => 'ktargetlistexport', 
+    'type' => 'integration', 
+    'directory' => 'ktargetlistexport_extended'
+);
+ */
+$plugins['ksnapshots'] = array(
+    'id' => 'ksnapshots', 
+    'type' => 'integration', 
+    'directory' => 'ksnapshots'
+); 
+$plugins['kpublishing'] = array(
+    'id' => 'kpublishing', 
+    'type' => 'integration', 
+    'directory' => 'kpublishing'
+);
+$plugins['kscheduling'] = array(
+    'id' => 'kscheduling', 
+    'type' => 'integration', 
+    'directory' => 'kscheduling'
+);
+$plugins['kexcelexport'] = array(
+    'id' => 'kexcelexport', 
+    'type' => 'integration', 
+    'directory' => 'kexcelexport'
+);
+$plugins['kpdfexport'] = array(
+    'id' => 'kpdfexport', 
+    'type' => 'integration', 
+    'directory' => 'kpdfexport'
+);
+$plugins['kqueryanalizer'] = array(
+    'id' => 'kqueryanalizer', 
+    'type' => 'integration', 
+    'directory' => 'kqueryanalizer'
+);
+$plugins['kpdrilldown'] = array(
+    'id' => 'kpdrilldown', 
+    'type' => 'integration', 
+    'directory' => 'kpdrilldown'
+);
+$plugins['ksavedfilters'] = array(
+    'id' => 'ksavedfilters', 
+    'type' => 'integration', 
+    'directory' => 'ksavedfilters'
+); 

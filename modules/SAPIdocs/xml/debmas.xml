@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<DEBMAS05>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDI_DC40</TABNAM>
+            <MANDT>200</MANDT>
+            <DOCNUM>0000000000223012</DOCNUM>
+            <DOCREL>700</DOCREL>
+            <STATUS>30</STATUS>
+            <DIRECT>1</DIRECT>
+            <OUTMOD>4</OUTMOD>
+            <IDOCTYP>DEBMAS05</IDOCTYP>
+            <MESTYP>DEBMAS</MESTYP>
+            <SNDPOR>SAPED0</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDPRN>ED0CLNT200</SNDPRN>
+            <RCVPOR>SUGARNHTTP</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPRN>SUGARNEU</RCVPRN>
+            <CREDAT>20170518</CREDAT>
+            <CRETIM>135221</CRETIM>
+            <SERIAL>20170518135220</SERIAL>
+        </EDI_DC40>
+        <E1KNA1M SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <KUNNR>0000100043</KUNNR>
+            <BBBNR>0000000</BBBNR>
+            <BBSNR>00000</BBSNR>
+            <BUBKZ>0</BUBKZ>
+            <KTOKD>DEBI</KTOKD>
+            <LAND1>AT</LAND1>
+            <NAME1>AKH Wien</NAME1>
+            <ORT01>Wien</ORT01>
+            <PSTLZ>1090</PSTLZ>
+            <REGIO>W</REGIO>
+            <SORTL>AKH</SORTL>
+            <SPRAS>D</SPRAS>
+            <STRAS>Währinger Gürtel 18-20</STRAS>
+            <TELF1>(1) 12345-0</TELF1>
+            <TELFX>(1) 12345-99</TELFX>
+            <STCEG>ATU16090307</STCEG>
+            <UMJAH>0000</UMJAH>
+            <JMZAH>000000</JMZAH>
+            <JMJAH>0000</JMJAH>
+            <UMSA1>0</UMSA1>
+            <HZUOR>00</HZUOR>
+            <SPRAS_ISO>DE</SPRAS_ISO>
+            <E1KNA11 SEGMENT="1"/>
+            <E1KNVVM SEGMENT="1">
+                <MSGFN>005</MSGFN>
+                <VKORG>2100</VKORG>
+                <VTWEG>01</VTWEG>
+                <SPART>01</SPART>
+                <KALKS>1</KALKS>
+                <AWAHR>100</AWAHR>
+                <INCO1>FH</INCO1>
+                <INCO2>Wien</INCO2>
+                <ANTLF>9</ANTLF>
+                <KZAZU>X</KZAZU>
+                <LPRIO>02</LPRIO>
+                <WAERS>EUR</WAERS>
+                <KTGRD>01</KTGRD>
+                <ZTERM>0001</ZTERM>
+                <VWERK>2100</VWERK>
+                <UEBTO>0.0</UEBTO>
+                <UNTTO>0.0</UNTTO>
+                <PODTG>         0</PODTG>
+                <E1KNVPM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <PARVW>AG</PARVW>
+                    <KUNN2>0000100043</KUNN2>
+                    <PARZA>000</PARZA>
+                </E1KNVPM>
+                <E1KNVPM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <PARVW>RE</PARVW>
+                    <KUNN2>0000100043</KUNN2>
+                    <PARZA>000</PARZA>
+                </E1KNVPM>
+                <E1KNVPM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <PARVW>RG</PARVW>
+                    <KUNN2>0000100043</KUNN2>
+                    <PARZA>000</PARZA>
+                </E1KNVPM>
+                <E1KNVPM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <PARVW>WE</PARVW>
+                    <KUNN2>0000100043</KUNN2>
+                    <PARZA>000</PARZA>
+                </E1KNVPM>
+                <E1KNVPM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <PARVW>Z1</PARVW>
+                    <KUNN2>0000100043</KUNN2>
+                    <PARZA>000</PARZA>
+                </E1KNVPM>
+                <E1KNVDM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <DOCTP>AF00</DOCTP>
+                    <SPRAS>D</SPRAS>
+                    <DOANZ>1</DOANZ>
+                    <DOVER>3</DOVER>
+                    <NACHA>1</NACHA>
+                    <SPRAS_ISO>DE</SPRAS_ISO>
+                </E1KNVDM>
+                <E1KNVDM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <DOCTP>AN00</DOCTP>
+                    <SPRAS>D</SPRAS>
+                    <DOANZ>1</DOANZ>
+                    <DOVER>3</DOVER>
+                    <NACHA>1</NACHA>
+                    <SPRAS_ISO>DE</SPRAS_ISO>
+                </E1KNVDM>
+                <E1KNVDM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <DOCTP>AUSJ</DOCTP>
+                    <SPRAS>D</SPRAS>
+                    <DOANZ>1</DOANZ>
+                    <DOVER>3</DOVER>
+                    <NACHA>1</NACHA>
+                    <SPRAS_ISO>DE</SPRAS_ISO>
+                </E1KNVDM>
+                <E1KNVDM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <DOCTP>BA00</DOCTP>
+                    <SPRAS>D</SPRAS>
+                    <DOANZ>1</DOANZ>
+                    <DOVER>3</DOVER>
+                    <NACHA>1</NACHA>
+                    <SPRAS_ISO>DE</SPRAS_ISO>
+                </E1KNVDM>
+                <E1KNVDM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <DOCTP>KO00</DOCTP>
+                    <SPRAS>D</SPRAS>
+                    <DOANZ>1</DOANZ>
+                    <DOVER>3</DOVER>
+                    <NACHA>1</NACHA>
+                    <SPRAS_ISO>DE</SPRAS_ISO>
+                </E1KNVDM>
+                <E1KNVDM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <DOCTP>LD00</DOCTP>
+                    <SPRAS>D</SPRAS>
+                    <DOANZ>1</DOANZ>
+                    <DOVER>3</DOVER>
+                    <NACHA>1</NACHA>
+                    <SPRAS_ISO>DE</SPRAS_ISO>
+                </E1KNVDM>
+                <E1KNVDM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <DOCTP>LP00</DOCTP>
+                    <SPRAS>D</SPRAS>
+                    <DOANZ>1</DOANZ>
+                    <DOVER>3</DOVER>
+                    <NACHA>1</NACHA>
+                    <SPRAS_ISO>DE</SPRAS_ISO>
+                </E1KNVDM>
+                <E1KNVDM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <DOCTP>RD00</DOCTP>
+                    <SPRAS>D</SPRAS>
+                    <DOANZ>1</DOANZ>
+                    <DOVER>3</DOVER>
+                    <NACHA>1</NACHA>
+                    <SPRAS_ISO>DE</SPRAS_ISO>
+                </E1KNVDM>
+                <E1KNVIM SEGMENT="1">
+                    <MSGFN>005</MSGFN>
+                    <ALAND>AT</ALAND>
+                    <TATYP>MWST</TATYP>
+                    <TAXKD>1</TAXKD>
+                </E1KNVIM>
+            </E1KNVVM>
+            <E1KNB1M SEGMENT="1">
+                <MSGFN>005</MSGFN>
+                <BUKRS>2100</BUKRS>
+                <ZUAWA>000</ZUAWA>
+                <AKONT>0000200000</AKONT>
+                <ZTERM>0001</ZTERM>
+                <ZINDT>00000000</ZINDT>
+                <ZINRT>00</ZINRT>
+                <FDGRV>A1</FDGRV>
+                <VLIBB>0</VLIBB>
+                <VRSZL>0</VRSZL>
+                <VRSPR>0</VRSPR>
+                <VERDT>00000000</VERDT>
+                <WEBTR>0</WEBTR>
+                <DATLZ>00000000</DATLZ>
+                <XZVER>X</XZVER>
+                <KULTG>0</KULTG>
+                <PERNR>00000000</PERNR>
+                <CESSION_KZ>01</CESSION_KZ>
+            </E1KNB1M>
+            <E1KNBKM SEGMENT="1">
+                <MSGFN>005</MSGFN>
+                <BANKS>AT</BANKS>
+                <BANKL>12000</BANKL>
+                <BANKN>012345678</BANKN>
+                <BANKA>UniCredit Bank Austria AG</BANKA>
+                <STRAS>Schottengasse 6-8</STRAS>
+                <ORT01>1010 Wien</ORT01>
+                <SWIFT>BKAUATWW</SWIFT>
+                <BNKLZ>12000</BNKLZ>
+            </E1KNBKM>
+            <E1KNBKM SEGMENT="1">
+                <MSGFN>005</MSGFN>
+                <BANKS>AT</BANKS>
+                <BANKL>15001</BANKL>
+                <BANKN>56456</BANKN>
+                <BANKA>Oberbank AG Zws.Enns</BANKA>
+                <STRAS>Hauptplatz 9</STRAS>
+                <ORT01>4470 Enns</ORT01>
+                <SWIFT>OBKLAT2L</SWIFT>
+                <BNKLZ>15001</BNKLZ>
+            </E1KNBKM>
+            <E1KNVKM SEGMENT="1">
+                <MSGFN>005</MSGFN>
+                <PARNR>0000023294</PARNR>
+                <NAMEV>Müller</NAMEV>
+                <NAME1>Hansi</NAME1>
+                <UEPAR>0000000000</UEPAR>
+                <TELF1>(1) 48800-1010</TELF1>
+                <GBDAT>00000000</GBDAT>
+                <VRTNR>0000000000</VRTNR>
+                <MOAB1>000000</MOAB1>
+                <MOBI1>000000</MOBI1>
+                <MOAB2>000000</MOAB2>
+                <MOBI2>000000</MOBI2>
+                <DIAB1>000000</DIAB1>
+                <DIBI1>000000</DIBI1>
+                <DIAB2>000000</DIAB2>
+                <DIBI2>000000</DIBI2>
+                <MIAB1>000000</MIAB1>
+                <MIBI1>000000</MIBI1>
+                <MIAB2>000000</MIAB2>
+                <MIBI2>000000</MIBI2>
+                <DOAB1>000000</DOAB1>
+                <DOBI1>000000</DOBI1>
+                <DOAB2>000000</DOAB2>
+                <DOBI2>000000</DOBI2>
+                <FRAB1>000000</FRAB1>
+                <FRBI1>000000</FRBI1>
+                <FRAB2>000000</FRAB2>
+                <FRBI2>000000</FRBI2>
+                <SAAB1>000000</SAAB1>
+                <SABI1>000000</SABI1>
+                <SAAB2>000000</SAAB2>
+                <SABI2>000000</SABI2>
+                <SOAB1>000000</SOAB1>
+                <SOBI1>000000</SOBI1>
+                <SOAB2>000000</SOAB2>
+                <SOBI2>000000</SOBI2>
+            </E1KNVKM>
+        </E1KNA1M>
+    </IDOC>
+</DEBMAS05>
